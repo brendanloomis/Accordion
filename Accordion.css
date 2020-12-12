@@ -1,0 +1,24 @@
+.accordion {
+    padding: 0;
+    margin: 5px;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+}
+
+button {
+    background-color: pink;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+li p {
+    background-color: lightgray;
+    margin: 0;
+    padding: 20px;
+    border: solid;
+    border-top: none;
+}

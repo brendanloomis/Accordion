@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component only opens the last section clicked 1`] = `
+<ul
+  className="accordion"
+>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p>
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+    </p>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component opens a section when clicked 1`] = `
+<ul
+  className="accordion"
+>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders empty given no sections 1`] = `
+<ul
+  className="accordion"
+/>
+`;
+
+exports[`Accordion Component renders no active sections by default 1`] = `
+<ul
+  className="accordion"
+>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
